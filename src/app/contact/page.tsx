@@ -7,7 +7,7 @@ const officeLocations = [
   {
     city: "New York",
     address: "432 Park Avenue, New York, NY 10022",
-    phone: "+1 (212) 555-0123",
+    phone: "+1 (281) 840-8969",
     hours: "9:00 AM - 6:00 PM EST",
   },
   {

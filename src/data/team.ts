@@ -10,19 +10,19 @@ export interface TeamMember {
 export const team: TeamMember[] = [
   {
     id: "1",
-    name: "Alexandra Mitchell",
-    role: "Chief Executive Officer",
-    bio: "Alexandra leads NEXOVA's global operations and strategic vision. With 25+ years of consulting and corporate transformation experience, she has guided Fortune 500 companies through major digital and organizational transformations. Previously, Alexandra was a Partner at McKinsey & Company and held executive roles at major technology and financial services firms. She earned her MBA from Harvard Business School.",
-    image: "/images/team/alexandra-mitchell.jpg",
-    linkedin: "https://linkedin.com/in/alexandramitchell",
+    name: "Rajeev K",
+    role: "Managing Director",
+    bio: "Rajeev leads NEXOVA's global operations and strategic vision with over 25 years of experience in management consulting, corporate strategy, and business transformation. He has guided Fortune 500 companies and multinational enterprises through large-scale operational turnarounds, M&A integrations, and digital transformations across the Americas, Middle East, and Asia-Pacific. Prior to founding NEXOVA, Rajeev held senior leadership positions at top-tier consulting firms and served as a strategic advisor to sovereign wealth funds and government agencies. He holds an MBA from INSEAD and a B.Tech from IIT Delhi.",
+    image: "/images/team/rajeev-k.jpg",
+    linkedin: "https://linkedin.com/in/rajeevk",
   },
   {
     id: "2",
-    name: "James Chen",
-    role: "Chief Operating Officer",
-    bio: "James oversees NEXOVA's operations, delivery excellence, and internal transformation initiatives. He brings 20+ years of experience in operations, supply chain optimization, and program management. James previously led operations at a global management consulting firm and has deep expertise in scaling consulting practices. He holds a B.S. in Engineering from MIT and an MBA from Stanford.",
-    image: "/images/team/james-chen.jpg",
-    linkedin: "https://linkedin.com/in/jameschen",
+    name: "Anoop R",
+    role: "General Manager",
+    bio: "Anoop oversees NEXOVA's day-to-day operations, client delivery, and business development across all practice areas. With 15+ years of experience spanning technology, operations excellence, and enterprise digital transformation, he brings a unique blend of technical depth and strategic thinking. Anoop has led complex engagements for clients in energy, manufacturing, financial services, and technology sectors. He is known for building high-performance teams and driving measurable outcomes. Anoop holds an MBA and has deep expertise in AI-driven business solutions, ERP implementations, and operational efficiency programs.",
+    image: "/images/team/anoop-r.jpg",
+    linkedin: "https://linkedin.com/in/anoopr",
   },
   {
     id: "3",
@@ -35,7 +35,7 @@ export const team: TeamMember[] = [
   {
     id: "4",
     name: "Marcus Johnson",
-    role: "Global Managing Partner, Operations & Digital",
+    role: "Partner, Operations & Digital",
     bio: "Marcus leads NEXOVA's Operations and Digital Transformation practices globally. With 22+ years of consulting experience, he has guided hundreds of organizations through large-scale transformation programs. Marcus specializes in operations excellence, digital operating models, and change management. He earned his MBA from Wharton School of Business.",
     image: "/images/team/marcus-johnson.jpg",
     linkedin: "https://linkedin.com/in/marcusjohnson",
@@ -43,7 +43,7 @@ export const team: TeamMember[] = [
   {
     id: "5",
     name: "Elena Rossi",
-    role: "Global Managing Partner, Financial Advisory & Strategy",
+    role: "Partner, Financial Advisory & Strategy",
     bio: "Elena leads NEXOVA's Financial Advisory and Strategy practices. She brings 21+ years of experience in financial services, M&A advisory, and corporate strategy. Elena has successfully completed over 150 M&A transactions and led major strategic initiatives for global financial institutions. She holds an MBA from INSEAD and is a CFA Charter holder.",
     image: "/images/team/elena-rossi.jpg",
     linkedin: "https://linkedin.com/in/elenarossi",
@@ -51,7 +51,7 @@ export const team: TeamMember[] = [
   {
     id: "6",
     name: "David Okonkwo",
-    role: "Global Managing Partner, Human Capital & Organization",
+    role: "Partner, Human Capital & Organization",
     bio: "David leads NEXOVA's Human Capital and Organizational Transformation practice. With 19+ years of experience in organizational design, talent strategy, and change management, he has transformed organizational cultures and talent strategies for global enterprises. David previously held senior HR leadership roles and brings deep expertise in organizational effectiveness. He earned his MBA from Kellogg School of Management.",
     image: "/images/team/david-okonkwo.jpg",
     linkedin: "https://linkedin.com/in/davidokonkwo",
@@ -59,7 +59,7 @@ export const team: TeamMember[] = [
   {
     id: "7",
     name: "Sophie Williams",
-    role: "Chief Knowledge & Learning Officer",
+    role: "Director, Knowledge & Research",
     bio: "Sophie leads NEXOVA's knowledge management, research, and learning initiatives. She brings 17+ years of experience in research, thought leadership, and organizational learning. Sophie has published extensively on management trends and consults with boards on strategic priorities. She holds a Ph.D. in Business Administration from the University of Chicago.",
     image: "/images/team/sophie-williams.jpg",
     linkedin: "https://linkedin.com/in/sophiewilliams",

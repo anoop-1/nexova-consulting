@@ -7,7 +7,7 @@ export const SITE_CONFIG = {
     "NEXOVA partners with Fortune 500 companies and high-growth enterprises to navigate complex business challenges, drive digital transformation, and unlock sustainable competitive advantage across multiple industries and geographies.",
   domain: "nexova.com",
   email: "hello@nexova.com",
-  phone: "+1 (212) 555-0147",
+  phone: "+1 (281) 840-8969",
   address: {
     street: "450 Park Avenue South",
     city: "New York",
