@@ -81,7 +81,7 @@ export default function InteractiveGrid() {
           }}
           initial={{ opacity: 1 }}
           animate={{ opacity: 0 }}
-          transition={{ duration: FADE_DURATION / 1000, ease: "easeOut" }}
+          transition={{ duration: FADE_DURATION / 1000 }}
         />
       ))}
     </div>

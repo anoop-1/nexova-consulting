@@ -19,7 +19,6 @@ const PageTransition = ({ children, className = "" }: PageTransitionProps) => {
       y: 0,
       transition: {
         duration: 0.5,
-        ease: "easeOut",
       },
     },
     exit: {
@@ -27,7 +26,6 @@ const PageTransition = ({ children, className = "" }: PageTransitionProps) => {
       y: -20,
       transition: {
         duration: 0.3,
-        ease: "easeIn",
       },
     },
   };

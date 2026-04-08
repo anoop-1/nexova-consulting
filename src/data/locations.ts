@@ -1922,7 +1922,6 @@ export const countries: Country[] = [
   {
     name: "Nigeria",
     slug: "nigeria",
-    country: "Nigeria",
     region: "Middle East & Africa",
     description:
       "Africa's largest economy with significant oil sector and rapidly growing fintech and technology industries.",

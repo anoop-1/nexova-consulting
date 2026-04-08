@@ -39,7 +39,6 @@ export const metadata: Metadata = {
     "business consulting",
     "enterprise solutions",
   ],
-  canonical: "https://nexova.consulting",
   robots: {
     index: true,
     follow: true,

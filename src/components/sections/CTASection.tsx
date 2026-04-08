@@ -21,7 +21,7 @@ export default function CTASection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.8, ease: [0.21, 0.47, 0.29, 0.98] },
+      transition: { duration: 0.8 },
     },
   };
 

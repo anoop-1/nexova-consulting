@@ -39,7 +39,7 @@ export default function IndustriesSection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: [0.21, 0.47, 0.29, 0.98] },
+      transition: { duration: 0.6 },
     },
   };
 
@@ -50,7 +50,7 @@ export default function IndustriesSection() {
         <motion.div
           className="absolute bottom-0 right-0 w-96 h-96 bg-nexova-lime rounded-full opacity-5 blur-3xl"
           animate={{ x: [0, 50, 0], y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
+          transition={{ duration: 10, repeat: Infinity }}
         />
       </div>
 

@@ -2,44 +2,38 @@ import { Variants } from "framer-motion";
 
 export const fadeInUp: Variants = {
   initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
+  animate: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   exit: { opacity: 0, y: 20 },
-  transition: { duration: 0.5 },
 };
 
 export const fadeInDown: Variants = {
   initial: { opacity: 0, y: -20 },
-  animate: { opacity: 1, y: 0 },
+  animate: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   exit: { opacity: 0, y: -20 },
-  transition: { duration: 0.5 },
 };
 
 export const fadeInLeft: Variants = {
   initial: { opacity: 0, x: -20 },
-  animate: { opacity: 1, x: 0 },
+  animate: { opacity: 1, x: 0, transition: { duration: 0.5 } },
   exit: { opacity: 0, x: -20 },
-  transition: { duration: 0.5 },
 };
 
 export const fadeInRight: Variants = {
   initial: { opacity: 0, x: 20 },
-  animate: { opacity: 1, x: 0 },
+  animate: { opacity: 1, x: 0, transition: { duration: 0.5 } },
   exit: { opacity: 0, x: 20 },
-  transition: { duration: 0.5 },
 };
 
 export const scaleIn: Variants = {
   initial: { opacity: 0, scale: 0.8 },
-  animate: { opacity: 1, scale: 1 },
+  animate: { opacity: 1, scale: 1, transition: { duration: 0.4 } },
   exit: { opacity: 0, scale: 0.8 },
-  transition: { duration: 0.4 },
 };
 
 export const slideIn: Variants = {
   initial: { opacity: 0, x: -50 },
-  animate: { opacity: 1, x: 0 },
+  animate: { opacity: 1, x: 0, transition: { duration: 0.5 } },
   exit: { opacity: 0, x: -50 },
-  transition: { duration: 0.5 },
 };
 
 export const staggerContainer: Variants = {
@@ -94,7 +88,6 @@ export const itemVariants: Variants = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: "easeOut",
     },
   },
 };

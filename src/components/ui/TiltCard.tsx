@@ -50,7 +50,7 @@ export default function TiltCard({
         rotateX: rotation.x,
         rotateY: rotation.y,
       }}
-      transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+      transition={{ duration: 0.3 }}
     >
       <motion.div
         style={{

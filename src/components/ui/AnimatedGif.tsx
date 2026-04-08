@@ -107,7 +107,7 @@ function GlobeSpin() {
         {/* Rotating globe group */}
         <motion.g
           animate={{ rotateZ: 360 }}
-          transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
+          transition={{ duration: 20, repeat: Infinity }}
           style={{ transformOrigin: '100px 100px' }}
         >
           {/* Wireframe sphere circles */}

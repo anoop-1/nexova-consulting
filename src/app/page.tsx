@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import HeroSection from '@/components/sections/HeroSection';
 import ServicesSection from '@/components/sections/ServicesSection';
 import StatsSection from '@/components/sections/StatsSection';
+import AnimatedShowcase from '@/components/sections/AnimatedShowcase';
 import IndustriesSection from '@/components/sections/IndustriesSection';
 import InsightsSection from '@/components/sections/InsightsSection';
 import TestimonialsSection from '@/components/sections/TestimonialsSection';
@@ -41,6 +42,7 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <StatsSection />
+      <AnimatedShowcase />
       <IndustriesSection />
       <InsightsSection />
       <TestimonialsSection />

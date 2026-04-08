@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import TypewriterText from '@/components/ui/TypewriterText';
 import InfiniteMarquee from '@/components/ui/InfiniteMarquee';
 import MagneticButton from '@/components/ui/MagneticButton';
+import LottieHero from '@/components/ui/LottieHero';
 import { ChevronDown } from 'lucide-react';
 
 export default function HeroSection() {
@@ -23,7 +24,7 @@ export default function HeroSection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.8, ease: [0.21, 0.47, 0.29, 0.98] },
+      transition: { duration: 0.8 },
     },
   };
 
@@ -152,61 +153,14 @@ export default function HeroSection() {
             </motion.div>
           </motion.div>
 
-          {/* Right side - Animated geometric element */}
+          {/* Right side - Animated Lottie-style hero visualization */}
           <motion.div
-            className="hidden lg:flex items-center justify-center h-96"
+            className="hidden lg:block"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <div className="relative w-80 h-80">
-              {/* Rotating outer square */}
-              <motion.div
-                className="absolute inset-0 border-2 border-nexova-accent rounded-2xl"
-                animate={{ rotate: 360 }}
-                transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-              />
-
-              {/* Middle rotating square */}
-              <motion.div
-                className="absolute inset-12 border-2 border-nexova-purple rounded-lg"
-                animate={{ rotate: -360 }}
-                transition={{ duration: 16, repeat: Infinity, ease: 'linear' }}
-              />
-
-              {/* Inner circle with gradient */}
-              <motion.div
-                className="absolute inset-24 rounded-full bg-gradient-to-br from-nexova-accent to-nexova-purple"
-                animate={{
-                  scale: [1, 1.1, 1],
-                  boxShadow: [
-                    '0 0 40px rgba(0, 240, 255, 0.3)',
-                    '0 0 60px rgba(123, 97, 255, 0.4)',
-                    '0 0 40px rgba(0, 240, 255, 0.3)',
-                  ],
-                }}
-                transition={{ duration: 4, repeat: Infinity }}
-              />
-
-              {/* Decorative dots */}
-              {[0, 1, 2, 3].map((i) => (
-                <motion.div
-                  key={i}
-                  className="absolute w-2 h-2 bg-nexova-lime rounded-full"
-                  style={{
-                    top: '50%',
-                    left: '50%',
-                    transformOrigin: '0 0',
-                  }}
-                  animate={{
-                    rotate: (360 / 4) * i + 360,
-                    x: 140,
-                    y: -2,
-                  }}
-                  transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
-                />
-              ))}
-            </div>
+            <LottieHero />
           </motion.div>
         </div>
       </div>

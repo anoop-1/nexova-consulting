@@ -23,7 +23,7 @@ export default function InsightsSection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: [0.21, 0.47, 0.29, 0.98] },
+      transition: { duration: 0.6 },
     },
   };
 
@@ -45,7 +45,7 @@ export default function InsightsSection() {
         <motion.div
           className="absolute top-1/3 left-0 w-96 h-96 bg-nexova-coral rounded-full opacity-5 blur-3xl"
           animate={{ x: [0, 50, 0], y: [0, -40, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
+          transition={{ duration: 10, repeat: Infinity }}
         />
       </div>
 

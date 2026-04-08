@@ -25,7 +25,7 @@ export default function StatsSection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: [0.21, 0.47, 0.29, 0.98] },
+      transition: { duration: 0.6 },
     },
   };
 
@@ -37,7 +37,7 @@ export default function StatsSection() {
         <motion.div
           className="absolute top-1/2 left-1/4 w-96 h-96 bg-nexova-accent rounded-full opacity-5 blur-3xl"
           animate={{ x: [0, 30, 0], y: [0, -40, 0] }}
-          transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
+          transition={{ duration: 8, repeat: Infinity }}
         />
       </div>
 

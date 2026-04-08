@@ -4,9 +4,9 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
-  Linkedin,
+  Globe,
   X,
-  Instagram,
+  Share2,
   ArrowRight,
   Mail,
   MapPin,
@@ -150,13 +150,13 @@ const Footer = ({ className = "" }: FooterProps) => {
             <div className="flex gap-4">
               {[
                 {
-                  icon: Linkedin,
+                  icon: Globe,
                   href: "https://linkedin.com",
                   label: "LinkedIn",
                 },
                 { icon: X, href: "https://twitter.com", label: "X" },
                 {
-                  icon: Instagram,
+                  icon: Share2,
                   href: "https://instagram.com",
                   label: "Instagram",
                 },

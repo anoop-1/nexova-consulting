@@ -9,7 +9,7 @@ export default function Loading() {
         {/* Animated Spinner */}
         <motion.div
           animate={{ rotate: 360 }}
-          transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
+          transition={{ duration: 2, repeat: Infinity }}
           className="w-16 h-16 border-4 border-transparent border-t-blue-500 border-r-purple-500 rounded-full"
         />
 

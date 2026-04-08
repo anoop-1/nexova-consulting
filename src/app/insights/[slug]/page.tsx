@@ -149,12 +149,9 @@ export default async function InsightDetail({
               >
                 LinkedIn
               </a>
-              <button
-                onClick={() => navigator.clipboard.writeText(window.location.href)}
-                className="px-4 py-2 rounded-lg bg-nexova-slate/20 hover:bg-nexova-slate/40 text-nexova-silver text-sm transition-colors"
-              >
+              <span className="px-4 py-2 rounded-lg bg-nexova-slate/20 hover:bg-nexova-slate/40 text-nexova-silver text-sm transition-colors cursor-help" title="Copy link functionality requires JavaScript">
                 Copy Link
-              </button>
+              </span>
             </div>
           </div>
         </div>

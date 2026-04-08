@@ -36,9 +36,7 @@ export default function AnimatedText({
       opacity: 1,
       y: 0,
       transition: {
-        type: 'spring',
-        damping: 12,
-        stiffness: 200,
+        duration: 0.4,
       },
     },
   };

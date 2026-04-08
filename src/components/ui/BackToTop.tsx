@@ -32,7 +32,7 @@ export default function BackToTop() {
           initial={{ opacity: 0, scale: 0.5, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.5, y: 20 }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
+          transition={{ duration: 0.3 }}
           aria-label="Back to top"
         >
           <ChevronUp className="w-5 h-5 text-nexova-accent group-hover:text-nexova-lime transition-colors" />
